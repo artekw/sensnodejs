@@ -1,0 +1,59 @@
+<html>
+<head>
+	<title>kafelki</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<SocketStream/>
+	<meta name=”viewport” content=”width=device-width, initial-scale=1.0″>
+	<link href='http://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600|Monda:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="client/css/app.css">
+	<script language="javascript" type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+</head>
+<body>
+<div id="wrapper">
+<div id="main">
+<table class="boxes" width="100%">
+<tbody>
+	<tr class="node12">
+		<td class="greenbox-head"><h1>node12</h1><h3>test</h3></td><td class="greenbox"><h1>Licznik</h1><h3></h3></td><td class="greenbox"><h1>Napięcie</h1><h3></h3></td>
+	</tr>
+	<tr class="node2">
+		<td class="brownbox-head">
+			<h1>node2</h1>
+			<h3>pokój A</h3>
+		</td>
+		<td class="brownbox">
+			<h1>Temperatura</h1>
+			<h3>-</h3>
+		</td>
+		<td class="brownbox">
+			<h1>Ciśnienie</h1>
+			<h3>-</h3>
+		</td>
+		<td class="brownbox">
+			<h1>Wilgotność</h1>
+			<h3>-</h3>
+		</td>
+		<td class="brownbox">
+			<h1>Bateria</h1>
+			<h3>-</h3>
+		</td>
+	</tr>
+</tbody>
+</table>	
+</div>
+<div id="footer">kafelkiUI</div>
+</div>
+
+<script>
+  $(".tools p").hover(function () {
+    $(this).css({'background-color' : '#ddd'});
+  }, function () {
+    var cssObj = {
+      'background-color' : '#eee'
+    }
+    $(this).css(cssObj);
+  });
+</script>
+
+</body>
+</html>

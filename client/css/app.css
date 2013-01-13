@@ -1,0 +1,168 @@
+/* https://github.com/olton/Metro-UI-CSS/tree/master/css */
+
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: 'Dosis', Helvetica, sans-serif;
+	font-size: 10pt;
+	line-height: 14px;
+	background-color: #eee;
+}
+
+#main {
+	margin: 0 auto;
+	margin-top: 25px;
+	width: 85%;
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+#footer {
+	margin: 0 auto;
+	width: 85%;
+	font-family: 'Monda', Helvetica, sans-serif;
+	margin-top: 10px;
+
+}
+
+p
+     {
+            line-height: 14pt;
+            padding: 0 0 15px 0;
+        }
+
+        h1
+        {
+            font-size: 24pt;
+            font-weight: 300;
+            color: #999;
+            margin: 0 0 20px 0;
+        }
+
+        h2
+        {
+            font-size: 18pt;
+            font-weight: 300;
+            color: #999;
+            margin: 0 0 16px 0;
+            padding-top: 20px;
+        }
+         h3
+        {
+            font-size: 16pt;
+            font-weight: 300;
+            color: #999;
+            margin: 0 0 10px 0;
+        }
+          h4
+        {
+            font-size: 13pt;
+            font-weight: 300;
+            color: #999;
+            margin: 0 0 10px 0;
+        }
+
+td 		{
+		vertical-align: top;
+        }
+        .boxes td {
+            margin:  0 20px 20px 0; text-align: left; width:  25%;
+        }
+/* green */
+        .greenbox {
+             background:  #1e7145; padding:  10px;
+        }
+        .greenbox-head h1, .greenbox-head h3 {
+             color:  #000 !important; 
+        }
+        .greenbox-head {
+             background:  #1e7145; padding:  10px; 
+        }
+/* blue */
+        .bluebox {
+             background:  #2d89ef ; padding:  10px;
+        }
+        .bluebox-head h1, .bluebox-head h3 {
+             color:  #000 !important; 
+        }
+        .bluebox-head {
+             background:  #2d89ef ; padding:  10px; 
+        }       
+/* darkblue */         
+        .darkbluebox {
+             background:  #2b5797 ; padding:  10px;
+        }   
+        .darkbluebox-head h1, .darkbluebox-head h3 {
+             color:  #000 !important; 
+        }
+        .darkbluebox-head {
+             background:  #2b5797 ; padding:  10px; 
+        }         
+/* brown */
+        .brownbox {
+             background:  #947358; padding:  10px;
+        }
+        .brownbox-head h1, .brownbox-head h3 {
+             color:  #000 !important; 
+        }
+        .brownbox-head {
+             background:  #947358; padding:  10px; 
+        } 
+/*orange */ 
+	.orangebox {
+		background:  #e3a21a; padding:  10px;
+	}
+	.orangebox-head h1, .orangebox-head h3 {
+		color:  #000 !important; 
+	}
+	.orangebox-head {
+			background:#e3a21a; padding:  10px; 
+	}  
+ /*lightbrown */
+	.lightbrownbox {
+		background:  #b9a57e; padding:  10px;
+	}
+	.lightbrownbox-head h1, .lightbrownbox-head h3 {
+		color:  #000 !important; 
+	}
+	.lightbrownbox-head {
+		background:  #b9a57e; padding:  10px; 
+	} 
+
+	.tools p {
+		padding:  10px; font-weight: bold; font-size: 20px; line-height: 10px;
+	}
+	.tools a {
+		color: #aaa !important; 
+	}
+
+	.boxes td h1 {
+		padding:  10px;color:  #fff; margin:  0; padding:   0 0 10px 0; font-size: 16pt;
+	}
+	.boxes td h3 {
+		padding:  10px;color:  #fff; margin:  0; padding:  0; line-height: 34pt; font-size: 32pt;
+	}
+	.side td h4 {
+		padding:  10px;color:  #fff; margin:  0; padding: 0; font-size: 12pt;
+	}
+	.side td h1 {
+		padding:  10px;color:  #fff; margin:  0; padding:   0 0 10px 0; font-size: 12pt;
+	}
+	.side td h3 {
+ 		padding:  10px;color:  #fff; margin:  0; padding:  0; line-height: 34pt; font-size: 24pt;
+	}
+	.boxes td h4 {
+		padding:  10px;color:  #fff; margin:  0; padding: 0; font-size: 12pt;
+	}
+	.boxes span {
+		font-size:  50%;
+	}
+	h2 {
+		 padding-top:  20px;
+	}
+	h1 span {
+            float:  right; font-size:  18pt; padding:  10px 0 0 0;
+	}
