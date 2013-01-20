@@ -1,14 +1,9 @@
 var server = require("./socket.js");
-
-config = {
-  host: '192.168.88.15',
-  port: 2000
-};
+var config = require("../config.json");
 
 exports.startClient = function(ss) {
 
-
-var conn = new server({ port: config.port, host: config.host});
+var conn = new server({ port: config.sensbase.port, host: config.sensbase.host});
 
 conn.on('node-2', function(mydata) {
 	var i;
